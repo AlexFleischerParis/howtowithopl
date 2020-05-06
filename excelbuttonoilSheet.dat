@@ -1,0 +1,14 @@
+
+
+SheetConnection sheet("input.xls");
+Gasolines from SheetRead(sheet,"'gas data'!A2:A4");
+Oils from SheetRead(sheet,"'oil data'!A2:A4");
+Gas from SheetRead(sheet,"'gas data'!B2:E4");
+Oil from SheetRead(sheet,"'oil data'!B2:E4");
+MaxProduction = 14000;
+ProdCost = 4;
+
+SheetConnection sheet2("output.xls");
+a to SheetWrite(sheet2,"RESULT!A2:A4");
+Blend to SheetWrite(sheet2,"RESULT!B2:D4");
+
