@@ -165,6 +165,10 @@
 			<ref name="multiply2float.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="sumcumuls" category="opl">
+			<ref name="sumcumuls.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
