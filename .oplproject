@@ -173,6 +173,10 @@
 			<ref name="indexisadecisionvariable2.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="tuplesetindexasdvarincpo" category="opl">
+			<ref name="tuplesetindexasdvarincpo.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
