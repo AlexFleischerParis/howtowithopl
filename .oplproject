@@ -177,6 +177,16 @@
 			<ref name="tuplesetindexasdvarincpo.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="tsp" category="opl">
+			<ref name="tsp.mod" type="model">
+			</ref>
+			<ref name="berlin52.dat" type="data">
+			</ref>
+			<ref name="pos.dat" type="data">
+			</ref>
+			<ref name="params.dat" type="data">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
