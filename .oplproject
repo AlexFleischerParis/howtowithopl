@@ -187,6 +187,14 @@
 			<ref name="params.dat" type="data">
 			</ref>
 		</config>
+		<config default="false" name="maxcut" category="opl">
+			<ref name="maxcut.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="maxcutcpo" category="opl">
+			<ref name="maxcutcpo.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
