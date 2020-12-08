@@ -37,6 +37,7 @@ int w[i in r][j in r]=(i<=j)?((rand(big)<=big*edge_prob)?rand(weight_range):0):0
 
 assert card(s)==n*(n-1) div 2;
 
+ // x is the unknown and 0 or 1 means in one or the other side of the fence
  dvar boolean x[r];
  
  dexpr float obj=2*sum(<i,j> in s) w[i][j]*(x[i]!=x[j]);
@@ -45,7 +46,8 @@ assert card(s)==n*(n-1) div 2;
  
  subject to
  {
-   
+   // break symmetry
+   x[1]==1;
  }
  
  {int} x1={i| i in r:x[i]==1};

@@ -20,6 +20,8 @@ int w[i in r][j in r]=(i<=j)?((rand(big)<=big*edge_prob)?rand(weight_range):0):0
 
 // end of random graph
 
+//int n=4;
+//range r=1..n;
 //float w[r][r]=
 //
 //[[ 0. , 8. ,-9. , 0.],
@@ -29,6 +31,7 @@ int w[i in r][j in r]=(i<=j)?((rand(big)<=big*edge_prob)?rand(weight_range):0):0
 
 assert card(s)==n*(n-1) div 2;
 
+ // x is the unknown and 0 or 1 means in one or the other side of the fence
  dvar boolean x[r];
  
  dexpr float obj=2*sum(<i,j> in s) w[i][j]*x[i]*(1-x[j]);
