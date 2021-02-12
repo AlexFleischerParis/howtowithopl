@@ -195,6 +195,10 @@
 			<ref name="maxcutcpo.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="alldifferentdvar" category="opl">
+			<ref name="alldifferentdvar.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
