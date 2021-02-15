@@ -199,6 +199,10 @@
 			<ref name="alldifferentdvar.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="evalcumul" category="opl">
+			<ref name="evalcumul.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
