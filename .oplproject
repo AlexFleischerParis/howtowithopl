@@ -211,6 +211,10 @@
 			<ref name="randomnumber.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="datacheck" category="opl">
+			<ref name="datacheck.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
