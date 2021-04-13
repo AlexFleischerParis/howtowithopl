@@ -215,6 +215,10 @@
 			<ref name="datacheck.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="maxflow" category="opl">
+			<ref name="maxflow.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
