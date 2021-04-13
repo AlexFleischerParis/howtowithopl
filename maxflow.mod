@@ -1,6 +1,6 @@
 /*
 
-Max flox in OPL
+Max flow in OPL
 
 https://en.wikipedia.org/wiki/Maximum_flow_problem
 
