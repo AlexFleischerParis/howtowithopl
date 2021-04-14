@@ -43,4 +43,13 @@ subject to {
 forall(k in r)  // all subsets but empty and all
     sum(e in Edges:(e.i in nodes2[k]) && (e.j in nodes2[k])) x[e]<=card(nodes2[k])-1;  
 
- }    
+ }  
+ 
+ 
+ setof(edge) solEdges       ={e | e in Edges : x[e]==1};
+ execute
+ {
+   writeln(solEdges);
+ }
+ 
+   
