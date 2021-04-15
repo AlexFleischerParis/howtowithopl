@@ -1,0 +1,34 @@
+nodes = {<"depot" 35 35> <"node1" 41 49> <"node2" 35 17>
+         <"node3" 55 45> <"node4" 55 20> <"node5" 15 30>
+         <"node6" 25 39> <"node7" 20 50> <"node8" 10 43>
+         <"node9" 55 60> <"node10" 30 60> <"node11" 20 65>
+         <"node12" 50 35> <"node13" 30 25> <"node14" 15 10>
+         <"node15" 30 5> <"node16" 10 20> <"node17" 5 30>
+         <"node18" 20 40> <"node19" 15 60> <"node20" 45 65>};
+clientVisits = {<1 "node1" 10 0 204 10>
+         <2 "node2" 7 0 202 10>
+         <3 "node3" 13 0 197 10>
+         <4 "node4" 19 149 159 10>
+         <5 "node5" 26 0 199 10>
+         <6 "node6" 3 0 208 10>
+         <7 "node7" 5 0 198 10>
+         <8 "node8" 9 95 105 10>
+         <9 "node9" 16 97 107 10>
+         <10 "node10" 16 0 194 10>
+         <11 "node11" 12 67 77 10>
+         <12 "node12" 19 0 205 10>
+         <13 "node13" 23 159 169 10>
+         <14 "node14" 20 0 187 10>
+         <15 "node15" 8 61 71 10>
+         <16 "node16" 19 0 190 10>
+         <17 "node17" 2 0 189 10>
+         <18 "node18" 12 0 204 10>
+         <19 "node19" 17 0 187 10>
+         <20 "node20" 9 0 188 10>};
+vehicles = {<"vehicle1" "depot" "depot" 200 0 230>
+         <"vehicle2" "depot" "depot" 200 0 230>
+         <"vehicle3" "depot" "depot" 200 0 230>
+         <"vehicle4" "depot" "depot" 200 0 230>
+         <"vehicle5" "depot" "depot" 200 0 230>};
+
+

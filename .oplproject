@@ -219,6 +219,12 @@
 			<ref name="maxflow.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="vrptwcpo" category="opl">
+			<ref name="vrptwcpo.mod" type="model">
+			</ref>
+			<ref name="vrptw20.dat" type="data">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
