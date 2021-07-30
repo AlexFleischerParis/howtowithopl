@@ -225,6 +225,10 @@
 			<ref name="vrptw20.dat" type="data">
 			</ref>
 		</config>
+		<config default="false" name="stepwisewithbreakpoints" category="opl">
+			<ref name="stepwisewithbreakpoints.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
