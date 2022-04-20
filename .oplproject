@@ -229,6 +229,10 @@
 			<ref name="stepwisewithbreakpoints.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="exportlpfile" category="opl">
+			<ref name="exportlpfile.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
