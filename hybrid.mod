@@ -1,6 +1,6 @@
 // hybrid CPOptimizer and CPLEX to solve lifegame
 //
-// warmstart between CPO and CPLEX tu use them both
+// warmstart between CPO and CPLEX to use them both
 // 
 // the objective is maximize
 //
