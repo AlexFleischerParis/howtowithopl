@@ -410,6 +410,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="oplsettings" category="opl">
+            			
+            <ref name="oplsettings.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
