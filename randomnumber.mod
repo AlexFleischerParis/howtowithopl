@@ -52,6 +52,53 @@ execute
   writeln("stddevy2 = ",stddevy2);
 }
 
+// We can do the same by calling java from OPL
+
+int N=100000;
+range R=1..N;
+float uniform[R];
+float gaussian[R];
+
+
+execute{ 
+
+var rnd = IloOplCallJava("java.util.Random", "<init>", "()");
+rnd.setSeed(1);	
+for(var i in R)
+{			    			  
+ uniform[i]=rnd.nextDouble();
+ 
+}
+
+for(var i in R)
+{			    			  
+ gaussian[i] = rnd.nextGaussian();
+ 
+}
+}
+
+float meanU=1/N*sum(i in R)uniform[i];
+float meanG=1/N*sum(i in R)gaussian[i];
+
+float stdU=sqrt(1/N*(sum(i in R) (uniform[i]-meanU)^2));
+float stdG=sqrt(1/N*(sum(i in R) (gaussian[i]-meanG)^2));
+
+
+execute
+{
+ writeln(); 
+ writeln("And now using scripting"); 
+ writeln("Uniform");
+ writeln("Mean = ",meanU);
+ writeln("Std dev = ",stdU);
+ writeln("sqrt(1/12) = ",Math.sqrt(1/12)," which is std dev of uniform between 0 and 1");
+ writeln();
+ writeln("Gaussian");
+ writeln("Mean = ",meanG);
+ writeln("Std dev = ",stdG);
+ 
+}
+
 /*
 
 which can give
@@ -63,6 +110,16 @@ avx2 = 0.003682341
 avy2 = 0.005292613
 stddevx2 = 1.0253974
 stddevy2 = 1.005016899
+
+And now using scripting
+Uniform
+Mean = 0.499294295
+Std dev = 0.288984266
+sqrt(1/12) = 0.288675135 which is std dev of uniform between 0 and 1
+
+Gaussian
+Mean = 0.005901088
+Std dev = 0.998125421
 
 or other values
 
