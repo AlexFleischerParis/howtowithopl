@@ -18,7 +18,7 @@ for it in range(0,nblines):
    colors =  colorstring.split(",")
 
 
-   realcolors=["p","r","b","y"]
+   realcolors=["p","r","b","y","g","c"]
 
    l=len(x)
 
