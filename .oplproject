@@ -417,6 +417,16 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="vrpcpo" category="opl">
+            			
+            <ref name="vrpcpo.dat" type="data">
+			</ref>
+            			
+            <ref name="vrpcpo.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
