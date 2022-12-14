@@ -427,6 +427,16 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="tspcpocircuit" category="opl">
+            			
+            <ref name="tspcpocircuit.mod" type="model">
+			</ref>
+            			
+            <ref name="berlin52.dat" type="data">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
