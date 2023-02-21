@@ -437,6 +437,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="cartesianproduct2" category="opl">
+            			
+            <ref name="cartesianproduct2.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
